@@ -46,23 +46,20 @@ section:first-of-type{
 section:last-of-type{
     background-color: yellow;
 }
-img/*[id ^='shoe']*/{ 
-    scroll-behavior: smooth;
-}
 /* Content delle section */
 
 /* immagini */
 section img {
     position: absolute;
-    top: 50%;
+    height: 70%;
+    top: 40%;
     left: 50%;
-    transform: translate(-50%,-50%);
-    
+    transform: translate(-50%,-50%);  
 }
 /* titoli */
 section h1{
     position: absolute;
-    top: 70%;
+    top: 80%;
     left: 50%;
     transform: translate(-50%,-50%);
     font-size:55px;
