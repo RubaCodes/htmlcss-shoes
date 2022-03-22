@@ -35,7 +35,7 @@ nav ul li a{
 }
 /* Section */
 section{
-    height: 100vw;
+    height: 100vh;
     position: relative;
     background-color: green;
     scroll-behavior: smooth;
