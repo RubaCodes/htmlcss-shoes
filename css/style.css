@@ -16,23 +16,28 @@ nav li{
 }
 nav ul li a{
     display: inline-block;
-    padding: 40px;
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    vertical-align: middle;
+    text-align: center;
+    margin: 0 10px;
     text-decoration: none;
     font-size: large;
     font-weight: 700;
+    background-color: white;
     border-radius: 50%;
-    border: 1px solid black;
+    border: 1px solid transparent; 
 }
 /* Section */
 section{
     height: 100vw;
     position: relative;
+    background-color: green;
+    scroll-behavior: smooth;
 }
 section:first-of-type{
     background-color: red;
-}
-section{
-    background-color: green;
 }
 section:last-of-type{
     background-color: yellow;
