@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BArra di navigazione */
+nav{
+    position: fixed;
+    top: 50px;
+    right: 0;
+}
+nav li{
+    display: inline-block;
+}
+nav ul li a{
+    display: inline-block;
+    padding: 40px;
+    text-decoration: none;
+    font-size: large;
+    font-weight: 700;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+/* Section */
+section{
+    height: 100vw;
+}
+#shoe-1{
+    background-color: red;
+}
