@@ -37,6 +37,8 @@ section{
 section:last-of-type{
     background-color: yellow;
 }
+
+/* Content delle section */
 #shoe-1, #shoe-2, #shoe-3{
     position: absolute;
     top: 50%;
@@ -49,4 +51,7 @@ section h1{
     top: 70%;
     left: 50%;
     transform: translate(-50%,-50%);
+    font-size:55px;
+    text-align: center;
+    text-transform: uppercase;
 }
