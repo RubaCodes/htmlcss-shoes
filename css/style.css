@@ -44,13 +44,15 @@ section:last-of-type{
 }
 
 /* Content delle section */
-#shoe-1, #shoe-2, #shoe-3{
+
+/* immagini */
+section img {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
-
+/* titoli */
 section h1{
     position: absolute;
     top: 70%;
@@ -59,4 +61,8 @@ section h1{
     font-size:55px;
     text-align: center;
     text-transform: uppercase;
+    color: yellow;
+}
+#banner-3 h1{
+    color: green;
 }
