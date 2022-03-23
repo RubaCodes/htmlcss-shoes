@@ -35,6 +35,7 @@ nav ul li a{
     background-color: white;
     border-radius: 50%;
     border: 1px solid transparent; 
+    box-shadow: 2px 2px 5px;
 }
 /* Section */
 section{
